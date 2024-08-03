@@ -68,12 +68,6 @@ body {
 
 
 }
-/* @keyframes changeBackground{
-    0% { background-image:url("https://s3-media0.fl.yelpcdn.com/educatorphoto/uEAEgC7rnkwHWJ-HrlLvzA/o.jpg") }
-    33% { background-image: url("https://s3-media0.fl.yelpcdn.com/educatorphoto/xfKgg4ymAXsJLQB13m8baQ/o.jpg&quot") }
-    66% { background-image:url("https://s3-media0.fl.yelpcdn.com/educatorphoto/pizr9AfJglHQILkR1UnH-A/o.jpg&quot") }
-    100% { background-image:url("https://s3-media0.fl.yelpcdn.com/educatorphoto/z55ycyxaqyb_r8xd74Mdmg/o.jpg&quot") }
-} */
 
 .background {
     opacity: 1;
@@ -87,9 +81,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
-    /* animation: changeBackground 90s infinite;
-    transition: background-image 1s; */
-    
+   
 
 
 }
@@ -181,28 +173,14 @@ header{
     .search-option{
         width:26%;
     }
-    /* .option-container{
-        width:476px ;
-    } */
+    
      .navigation-option{
         width: 64%;
      }
     
-    /* #a,#b{
-        width: 170px;
-    } */
+  
 }
-/* @media (max-width:1279px){
-    .search-option{
-        width: 482px;
-    }
-    .option-container{
-        width: 450px;
-    }
-    #a,#b{
-        width: 197px;
-    }
-} */
+
 @media (max-width:1024px){
     .search-option{
         width: 22%;
@@ -211,21 +189,9 @@ header{
     .navigation-option{
         width: 68%;
     }
-    /* #a,#b{
-        width: 220px;
-    } */
+   
 }
-/* @media (max-width:1024px){
-    .search-option{
-        width:494px ;
-    }
-    .option-container{
-        width: 462px;
-    }
-    #a,#b{
-        width: 203px;
-    }
-} */
+
 input {
     align-items: center;
     color: rgb(86, 88, 90);
@@ -423,13 +389,7 @@ input {
 }
 
 
-/* .input input ::placeholder{
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    letter-spacing: normal;
-    color: #2d2e2f;
-} */
+
 
 .input2 input {
     border-top-left-radius: 0;
@@ -557,48 +517,9 @@ input {
 
 
 }
-/* @media(max-width:1420px) {
-    
-    .headdata{
-        width: 52.4%;
-    }
-    
-}
 
-@media(max-width:1400px){
-    .headdata{
-        width: 60%;
-    }
 
-} */
-/* @media (max-width:1254px){
-    
-    .subsearch{
-        width: 20%;
-    }
-} */
-/* @media(max-width:1134px){
-    .subsearch{
-        width: 25%;
-    }
-    
-} */
-/* @media(min-width:1024px){
-    .subsearch{
-        border: 2px solid violet;
-        width: 10%;
-        display: flex;
-        justify-content: left;
-        
-    }
-    .input{
-        width: 40%;
-        
-    }
-    .input2{
-        width: 40%;
-    }
-} */
+
 .data1 {
     display: flex;
     font: inherit;
@@ -732,22 +653,8 @@ input {
     border-bottom: 4px solid rgb(165, 53, 53);
 }
 
-/* .nav span img {
-    width: 24px;
-    height: 24px;
-    justify-content: center;
-    filter: invert(1);
-    margin-top: -3px;
-    padding-left: 4px;
 
 
-
-}
-    */
-/* .nav svg{
-    margin-top:-5px;
-   
-} */
 
 
 .main{
@@ -759,15 +666,7 @@ input {
     top: 105px;
    max-width: 100%;
 }
-/* 
-.main1 {
-    position: relative;
-    min-height: 580px;
-    
-    min-width: max-content;
-    margin-right: 945px;
-    
-} */
+
 .main1{
     letter-spacing: 2px;
     display: flex;
@@ -1123,10 +1022,7 @@ a {
     border-top-right-radius: 0px;
 }
 
-/* .grid div{
-    border:1px solid rgb(170, 167, 167);
-    border-radius: 8px;
-} */
+
 .ratedata {
     font-family: "opensemi";
     font-size: 12px;
@@ -1406,35 +1302,6 @@ a {
         grid-template-columns: repeat(2 1fr);
         max-width: 100%;
     }
-
-    /* .hid {
-        display: inline
-    }  */
-
-     /* .subsearch {
-        width: 307px;
-        display: flex;
-        flex-flow: column;
-        
-    } */
-/* 
-     .button,
-     .input::after {
-        display: none;
-    }   */
-
-    /* header {
-        margin-left: -24px;
-    } */
-
-    /* .main1 {
-        margin-left: -16px;
-    }
-
-    .maindata * {
-        width: 400px;
-        margin-left: 0px;
-    } */
 
     .navmenu {
         /* margin-top: 3.5px; */
